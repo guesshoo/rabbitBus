@@ -48,9 +48,9 @@ task :compile => [:versioning] do
 end
 
 task :specs do
-	specs = FileList.new("src/RabbitBus.Specs/bin/#{COMPILE_TARGET}/*.Specs.dll")
+	specs = FileList.new("./src/RabbitBus.Specs/bin/#{COMPILE_TARGET}/*.Specs.dll")
 	puts specs
-	sh "src/packages/Machine.Specifications.0.5.16/tools/mspec-x86-clr4.exe -x integration #{specs}"
+	sh "src/packages/Machine.Specifications.0.5.16/tools/mspec-x86-clr4.exe #{specs}"
 end
 
 task :package do
