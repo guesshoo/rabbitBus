@@ -111,6 +111,7 @@
     <Compile Include="Integration\HeaderExchangeConfigurationSpecs.cs" />
     <Compile Include="Integration\PublishConfigSpecs.cs" />
     <Compile Include="Integration\TopicExchangeConfigurationSpecs.cs" />
+    <Compile Include="Integration\TopicExchange_When_routing_different_message_type_to_handler.cs" />
     <Compile Include="Integration\UnsubscribeSpecs.cs" />
     <Compile Include="Integration\SubscribeSpecs.cs" />
     <Compile Include="Integration\PublishSpecs.cs" />
