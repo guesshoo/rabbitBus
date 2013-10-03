@@ -5,7 +5,7 @@ namespace RabbitBus.Specs.Infrastructure
 {
 	public static class ActionExtensions
 	{
-		const int Timeout = 15 /* seconds */;
+		const int Timeout = 30 /* seconds */;
 
 		public static Action Then(this Action action, Action afterAction)
 		{

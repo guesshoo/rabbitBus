@@ -16,6 +16,7 @@ namespace RabbitBus
 		bool Redelivered { get; }
 		string CorrelationId { get; }
 		string UserId { get; }
+        string RoutingKey { get; }
 		void AcceptMessage();
 		void RejectMessage(bool requeue);
 		void Reply<TResponseMessage>(TResponseMessage responseMessage);
