@@ -18,6 +18,7 @@
     <SourceLinkRepoUrl>https://raw.github.com/guesshoo/rabbitbus/{0}/%var2%</SourceLinkRepoUrl>
     <SourceLinkWriteSrcSrvTxt>true</SourceLinkWriteSrcSrvTxt>
     <SourceLink>true</SourceLink>
+    <SourceLinkExclude>..\CommonAssemblyInfo.cs</SourceLinkExclude>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -1,0 +1,6 @@
+﻿name: RabbitBus
+version: 2.1.0.0
+depends: openwrap anchored content
+depends: RabbitMQ.Client = 3.1
+build: files; file=bin-net40 -> build\RabbitBus*.*
+build: files; file=bin-net40 -> build\Newtonsoft.Json*.*

@@ -18,3 +18,5 @@ _UpgradeReport_Files/
 *.bak
 *.log
 *.log.*
+
+wraps/

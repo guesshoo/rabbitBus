@@ -114,6 +114,7 @@
     <Compile Include="Integration\UnsubscribeSpecs.cs" />
     <Compile Include="Integration\SubscribeSpecs.cs" />
     <Compile Include="Integration\PublishSpecs.cs" />
+    <Compile Include="Integration\when_publishing_messages_within_the_same_topic_namespace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Infrastructure\RabbitExchange.cs" />
     <Compile Include="Infrastructure\RabbitQueue.cs" />
